@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const VacationController = require('../controller/VacationController');
+const VacationController = require('../controller/vacationController');
 
 
 router.get('/searchlocation', (req, res) => {
